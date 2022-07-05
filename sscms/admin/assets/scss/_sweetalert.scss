@@ -1,0 +1,33 @@
+/* =========== */
+/* Sweet Alert */
+/* =========== */
+
+.swal2-container {
+  .swal2-title {
+    font-size: 28px !important;
+  }
+}
+
+.swal2-popup{
+  .swal2-content {
+    font-size: 16px !important;
+  }
+  .swal2-styled{
+    &:focus{
+      box-shadow: none !important;
+    }
+  }
+}
+
+
+.swal2-icon{
+  &.swal2-success {
+    .swal2-success-ring {
+      border-color: rgba($success,0.3) !important;
+    }
+
+    [class^=swal2-success-line]{
+      background: rgba($success,0.8) !important;
+    }
+  }
+}
